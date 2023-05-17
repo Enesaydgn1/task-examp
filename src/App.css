@@ -1,0 +1,74 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.task-header{
+    width: 450px;
+}
+.task-update{
+    width: 100%;
+}
+.task-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.task-form label{
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.task-form input{
+    border-radius: 0px;
+    padding: 10px;
+    outline: none;
+    box-shadow: 0px 0px 10px  rgba(245, 245, 245, 0.397);
+
+}
+.task-form textarea{
+    margin: 0px 0px 20px 0px;
+    border-radius: 0px;
+    padding: 10px;
+    min-height:70px;
+    box-shadow: 0px 0px 10px  rgba(245, 245, 245, 0.397);
+
+}
+
+.task-form button{
+    padding: 10px;
+    background-color: rgb(27, 78, 61);
+    border: 1px solid rgba(255, 255, 255, 0.103);
+    box-shadow: 0px 0px 10px  rgba(245, 245, 245, 0.397);
+}
+.update-button{
+    background-color: blueviolet !important;
+}
+.task-list{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.task-show{
+    border: 1px solid white;
+    border-radius: 0px;
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.task-show button{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(49, 109, 34);
+    border: none;
+}
+.task-show button:nth-child(odd){
+    background-color: red;
+    border: none;
+}
+
